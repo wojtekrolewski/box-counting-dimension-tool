@@ -1,9 +1,18 @@
-# Projekt-inzynierski 2023
+# Projekt-inzynierski / Engineering-thesis 2024
 # Box-Counting Dimension for Image Analysis
 
-## 1. Problem
-Celem projektu było opracowanie narzędzia do wyznaczania wymiaru pudełkowego obiektów na obrazach
-jako miary ich złożoności geometrycznej.
+## 1. Overview
+This project focuses on the implementation of a tool for estimating the box-counting (fractal) dimension of objects present in digital images.
+The box-counting dimension is a quantitative measure of geometric complexity and self-similarity, commonly used in image analysis and pattern characterization.
+
+The project was developed as part of an engineering thesis and emphasizes algorithmic image analysis rather than machine learning approaches.
+
+## 2. Problem Statement
+The objective of the project was to:
+-design and implement an algorithm for computing the box-counting dimension,
+-adapt the method for use with digital images,
+-build a reusable and configurable Python-based analytical tool.
+A key challenge was ensuring robustness of the dimension estimation with respect to image resolution, noise, and preprocessing choices.
 
 ## 2. Dane
 - obrazy binarne / w skali szarości
